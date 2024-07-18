@@ -1,0 +1,273 @@
+:root{
+    --main_color: #2fd8f2;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    font-family: "Roboto", sans-serif;
+}
+
+/*---------Navbar section--------*/
+
+#navbar{
+    background-color: #f9f9f9;
+}
+#logo{
+    margin-left: -34px;
+    font-size: 36px;
+    font-weight: 500;
+    color: black;
+    text-shadow: 0px 1px 1px black;
+    margin-bottom: 5px;
+}
+#logo span{
+    color: var(--main_color);
+
+}
+.navbar-toggler span{
+    color: var(--main_color);
+}
+.navbar-nav{
+    margin-left: 80px;
+}
+.nav-item .nav-link{
+    font-size: 16px;
+    font-weight: 550;
+    margin-left: 8px;
+    color: black;
+    letter-spacing: 1px;
+    border-radius: 3px;
+    transition: 0.5s ease;
+}
+.d-flex{
+    margin-left: 20px;
+}
+.nav-item .nav-link:hover{
+    background-color: var(--main_color);
+    color: white;
+}
+#navbar form button{
+    background-color: var(--main_color);
+    color: white;
+    border: none;
+}
+.icons{
+    padding-left: 50px;
+    display: flex;
+    gap: 10px;
+}
+.bx{
+    color: black;
+    padding-left: 8px;
+    font-size: 20px;
+}
+.bx:hover{
+    color: var(--main_color);
+}
+
+/*---------Home section--------*/
+section{
+    padding: 50px 10%;
+}
+.home{
+    width: 100%;
+    min-height: 100vh;
+    background-image: url(background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 70%;
+    align-items: center;
+
+}
+.home_text{
+    font-size: 2.7rem;
+    padding-top: 120px;
+
+}
+.home_text h1{
+    font-size: 50px;
+    font-weight: 700;
+
+}
+.home_text p{
+    font-size: 0.93rem;
+    margin: 0.4rem 0 1.8rem;
+
+}
+.home_text span{
+    color: var(--main_color);
+}
+.btn{
+    padding: 10px 14px;
+    background-color: var(--main_color);
+    color: white;
+    border-radius: 10px;
+    font-size: 14px;
+}
+.btn:hover{
+    background-color: #2fd8f2ce;
+}
+
+
+/*---------shop section--------*/
+
+.shop{
+    background-color: #ddd;
+}
+.category-card img {
+    width: 100%;
+    height: auto;
+}
+.category-card {
+    text-align: center;
+}
+.category-text {
+    text-align: center;
+}
+.text-column {
+    border-right: 1px solid #ddd;
+}
+.one , .two , .three{
+    background-color: #ddd;
+    cursor: pointer;
+    box-shadow: 0 0 5px black;
+    transition: 0.5s ease;
+}
+.text-column{
+    padding-top: 150px;
+}
+.text-column span{
+    color: var(--main_color);
+}
+.text-column p{
+    font-size: 15px;
+}
+.text-column h1{
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.one:hover , .two:hover , .three:hover{
+    background-color: var(--main_color);
+    transform: translateY(-10px);
+
+
+}
+
+/*---------cards section--------*/
+#card_section{
+    background-image: linear-gradient(to right,#000 30%, #4ee0f7);
+    background-color: var(--main_color);
+    
+}
+#btn2 button{
+    width: 100px;
+    height: 30px;
+    background: transparent;
+    border: 1px solid black;
+    transition: 0.5s ease;
+    cursor: pointer;
+}
+#btn2 button:hover{
+    background-color: var(--main_color);
+}
+
+#tpc{
+    box-shadow: 0 0 5px black;
+    transition: 0.5s ease;
+    cursor: pointer;
+}
+#tpc:hover{
+    transform: translateY(-10px);
+}
+
+/*---------products section--------*/
+
+
+#c p{
+    font-weight: bold;
+    color: black;
+}
+#c{
+    background-color: #ddd;
+}
+#btn3{
+    text-align: center;
+}
+#btn3 button{
+    width: 150px;
+    height: 30px;
+    background: transparent;
+    border: 1px solid black;
+    border-radius: 10px;
+    transition: 0.5s ease;
+    cursor: pointer;
+}
+#btn3 button:hover{
+    background-color: var(--main_color);
+}
+
+
+
+#btn4 button{
+    width: 150px;
+    height: 30px;
+    background: transparent;
+    border: 1px solid black;
+    transition: 0.5s ease;
+    cursor: pointer;
+}
+#btn4 button:hover{
+    background-color: var(--main_color);
+}
+.star{
+    padding-left: 25px;
+}
+.star .bx{
+    color: orange;
+}
+/*---------About section--------*/
+
+#btn4 button{
+    border-radius: 10px;
+}
+ span{
+    color: var(--main_color);
+}
+
+/*---------footer section--------*/
+
+#footer{
+    width: 100%;
+    background-color: black;
+    margin-top: 100px;
+}
+#footer span{
+    color: var(--main_color);
+}
+#footer h1{
+    color: white;
+    padding-top: 30px;
+}
+#footer p{
+    color: white;
+}
+.iconsf i{
+    color: white;
+    font-size: 30px;
+    cursor: pointer;
+}
+.copyright{
+    color: white;
+    margin-top: 20px;
+}
+.credite{
+    color: white;
+}
